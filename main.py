@@ -96,9 +96,9 @@ class BinaryHeap:
 
         while (l > 0 and (self.H[c] > self.H[l])) or (r > 0 and (self.H[c] > self.H[r])):
             ## TODO
-            if r>0 and (self.H[l] < self.H[r]): #only check the right because it goes left to right
-                smallest = l
-            else: smallest = r 
+            if r>0 and (self.H[r] < self.H[l]): #only check the right because it goes left to right
+                smallest = r
+            else: smallest = l 
             self.H[smallest], self.H[c] = self.H[c] , self.H[smallest]
             c = smallest 
             l = self.lchild(c)
