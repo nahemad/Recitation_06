@@ -1,7 +1,7 @@
 # CMPS 2200 Recitation 06
 ## Answers
 
-**Name:**_________________________
+**Name:** Nahema Dumonteil 
 **Name:**_________________________
 
 
@@ -14,10 +14,10 @@ Place all written answers from `recitation-06.md` here for easier grading.
 
   - **1a) (1 pt)** What is the work/span of *deleteMin*?
   Do delete a min we first need to find a min. Finding a min in an unsorte dlist takes work, O(n) and then deleting an element form a list also takes work O(n), so the total work is O(n).
-  Span would also be O(n) because if we use a loop to fin the min, it would be a sequential prcoess. 
+  Span would also be O(n) because if we use a loop to find the min, it would be a sequential prcoess. 
 
   - **1b) (1 pt)** What is the work/span ofand *insert(x)*?
-  To insert an element, it its at the end of the list then it takes constant time O(1). To insert in the middle or other implementatons cna be linear time. so the work would be O(1) or O(n) 
+  To insert an element, if it is at the end of the list then it takes constant time O(1). To insert in the middle or other implementatons can be linear time. so the work would be O(1) or O(n) 
   Span would also be O(1) because we are still just appending an element at the end of the list (its an independent step)
 
 - **2a) (1 pt)** For a heap with $n$ elements, what does this imply about the depth of the associated almost-complete binary tree? 
